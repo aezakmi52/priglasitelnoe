@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.hight {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+ }
+
+ .for_img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1000;
+ }
+
+ .hight h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    padding-top: 40px;
+    text-transform: capitalize;
+ }
+
+ .hight h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 10px;
+ } 
+
+ .text {
+    height: 500px;
+    margin: 85vh 20px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    
+    background: rgb(255, 240, 226); 
+ }
+
+ .text h1 {
+    font-size: 40px;
+    font-family: "Playfair Display";
+ }
+
+ .text p {
+    font-size: 20px;
+    font-family: "Playfair Display";
+ }
+
+ .calendar {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20%;
+ }
+
+ .calendar h4 {
+    font-size: 30px;
+    margin-top: 10%;
+ }
+
+ .calendar img{
+    width: 100%;
+    height: 100%;
+    
+ }
+
+ .timing {
+   font-family: "Great Vibes", cursive;
+   text-align: center;
+   margin-top: 10%;
+ }
+
+ .timing h1 {
+   font-size: 60px;
+   font-weight: 100;
+ }
+
+
+ .timing-list {
+   color: rgb(11, 112, 0);
+   font-family: "Playfair Display";
+   padding: 5%;
+   display: flex;
+
+ }
+ 
+ .timing-list li {
+   line-height: 200%;
+   list-style-type: none;
+ }
+
+ .timing-time {
+   font-size: 30px;
+ }
+
+ .timing-time li {
+   display: grid;
+   place-items: start;
+   grid-template-columns: 2fr 1fr 5fr;
+   text-wrap: nowrap;
+
+ }
+
+ .timing-time li div {
+   font-size: 15px;
+   display: grid;
+ }
+
+ .loc {
+   margin-top: 20%;
+ }
+
+ .loc img {
+   width: 100%;
+ }
+
+ .loc h1 {
+   font-family: "Great Vibes", cursive;
+   text-align: center;
+   font-size: 60px;
+   font-weight: 100;
+   margin-top: 10%;
+ }
+
+ .loc p {
+   font-family: "Playfair Display";
+   text-align: center;
+   line-height: 200%;
+ }
+
+ .details {
+   margin-top: 20%;
+   display: flex;
+   flex-direction: row;
+   padding: 0 0% 0 5%;
+ }
+
+ .details-desc {
+   font-family: "Great Vibes", cursive;
+   font-size: 20px;
+   font-weight: 100;
+   text-align: center;
+   width: 50%;
+ }
+
+ .color1 {
+   height: 40px;
+   background-color: rgb(12, 100, 53);
+   margin: 10% 5%;
+ }
+
+
+ .color2 {
+   height: 40px;
+   background-color: rgb(250, 221, 3);
+   margin: 10% 5%;
+ }
+
+ .color3 {
+   height: 40px;
+   background-color: rgb(255, 243, 187);
+   margin: 10% 5%;
+ }
+
+ .color4 {
+   height: 40px;
+   background-color: rgb(0, 0, 0);
+   margin: 10% 5%;
+ }
+
+ .details img {
+   width: 50%;
+
+ }
+ 
+ .pod {
+   font-family: "Playfair Display";
+   text-align: center;
+   padding: 0 10%;
+   line-height: 200%;
+   margin-top: 15%;
+ }
+
+ form {
+   margin-top: 10%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .intext {
+   border: 2px solid rgb(92, 150, 22);
+   margin-top: 10%;
+   height: 40px;
+   width: 70%;
+   text-align: center;
+   font-family: "Playfair Display";
+   font-size: 20px;
+ }
+
+ .intext:focus {
+    outline-width: 0;
+ }
+
+ .inradio {
+    margin-right: 5%;
+    width: 40px;
+ }
+
+
+ label {
+   margin-top: 5%;
+   width: 70%;
+   display: flex;
+   vertical-align: middle;
+   font-family: "Playfair Display";
+ }
+
+ button {
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(92, 150, 22);
+    font-family: "Playfair Display";
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+ }
+
